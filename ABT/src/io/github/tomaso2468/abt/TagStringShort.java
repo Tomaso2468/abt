@@ -50,8 +50,8 @@ public class TagStringShort extends TagString {
 	/**
 	 * Constructs a new short string tag.
 	 * 
-	 * @param name
-	 * @param data
+	 * @param name The name of the tag.
+	 * @param data The data of the tag.
 	 */
 	public TagStringShort(String name, String data) {
 		super(name, data);

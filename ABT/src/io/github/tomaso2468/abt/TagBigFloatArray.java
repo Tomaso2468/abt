@@ -129,7 +129,7 @@ public class TagBigFloatArray extends TagGroup {
 	/**
 	 * Sets the value in one of the tags held in this array.
 	 * @param index
-	 * @param v
+	 * @param v The value to set.
 	 */
 	public void set(int index, String v) {
 		((TagString) getTag(index + "")).setData(v);

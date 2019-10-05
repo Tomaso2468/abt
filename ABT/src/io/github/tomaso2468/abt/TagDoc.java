@@ -107,7 +107,7 @@ public class TagDoc {
 	}
 	/**
 	 * Sets the app ID for this document.
-	 * @return A string of 255 characters or less.
+	 * @param app A string of 255 characters or less.
 	 */
 	public void setApp(String app) {
 		if (app.length() > 255) {
